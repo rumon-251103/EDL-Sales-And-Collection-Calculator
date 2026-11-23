@@ -1,0 +1,16 @@
+{
+  "name": "EDL Human 80% Adjustment Allocation Calculator",
+  "short_name": "EDL Human Adjust",
+  "description": "Human 80% Adjustment Allocation Calculator for Ethical Drugs Ltd.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f3f7fb",
+  "theme_color": "#083d78",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
