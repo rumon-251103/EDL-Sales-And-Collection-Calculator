@@ -1,27 +1,20 @@
-# EDL Calculation Portal
+# EDL Sales & Adjustment Calculator
 
-Responsive single-page HTML application for the Ethical Drugs Ltd. Human Health Division.
+A static website/PWA for EDL Sales and Adjustment calculations.
 
-## Run locally
 
-1. Download or clone this repository.
-2. Open `index.html` in a modern browser (Chrome, Edge, Firefox, or Safari).
+## Repository files
+- `index.html` — app interface and calculator logic
+- `manifest.json` — installable PWA metadata
+- `service-worker.js` — offline caching and update support
+- `favicon-32.png` — browser tab icon
+- `icon-192.png` — Android/PWA icon
+- `icon-512.png` — high-resolution PWA icon
 
-No build step is required.
 
-## Deploy with GitHub Pages
+## Deploy
+Upload all files in this folder to the root of your GitHub repository. Keep filenames and folder structure unchanged. Deploy the repository through Vercel or GitHub Pages.
 
-1. Push the repository to GitHub.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Choose the `main` branch and `/ (root)` folder, then save.
-5. Open the published Pages URL after deployment completes.
 
-## Files
-
-- `index.html` — complete application (HTML, CSS, and JavaScript).
-- `.nojekyll` — disables Jekyll processing for static hosting.
-
-## Notes
-
-The application is packaged as a static HTML site. Keep `index.html` at the repository root for GitHub Pages deployment.
+## Install
+The app must be served over HTTPS (or localhost) to install as a PWA. Open the deployed site in a supported browser and use its Install App / Add to Home Screen option.
